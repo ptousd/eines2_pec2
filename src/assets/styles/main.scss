@@ -1,0 +1,56 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables
+ */
+
+@import 'variables';
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_variables";
+@import "bootstrap/scss/_mixins";
+@import "bootstrap/scss/_utilities";
+@import "bootstrap/scss/_root";
+@import "bootstrap/scss/_reboot";
+@import "bootstrap/scss/_buttons";
+@import "bootstrap/scss/_carousel";
+@import "bootstrap/scss/_close";
+@import "bootstrap/scss/_containers";
+@import "bootstrap/scss/_forms";
+@import "bootstrap/scss/_grid";
+@import "bootstrap/scss/_list-group";
+@import "bootstrap/scss/_modal";
+@import "bootstrap/scss/_nav";
+@import "bootstrap/scss/_navbar";
+@import "bootstrap/scss/_helpers";
+@import "bootstrap/scss/_type";
+@import "bootstrap/scss/_transitions";
+@import "bootstrap/scss/utilities/_api";
+
+
+// @import "bootstrap/scss/bootstrap";
+
+
+@import '@fortawesome/fontawesome-free/css/all.css';
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+@import 'layouts/home';
+
+/**
+ * Do NOT include anything else in this file!
+ */
