@@ -177,7 +177,7 @@
 
     .poster__item {
       padding: .6em;
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
 
   }
@@ -196,9 +196,9 @@
 \*------------------------------------*/
 
 .banda {
-  margin: 0;
   padding-right: .5em;
   padding-left: .5em;
+  margin: 0;
   list-style: none;
 
  @media only screen and (min-width: 768px) {
@@ -213,12 +213,12 @@
   margin-bottom: 1em;
 
  @media only screen and (min-width: 768px) {
-      flex: 0 0 45%;
-      margin-bottom: 1.5em;
-      margin-left: 1.5em;
       display: flex;
+      flex: 0 0 45%;
       flex-direction: column;
       justify-content: space-between;
+      margin-bottom: 1.5em;
+      margin-left: 1.5em;
  }
 
  @media only screen and (min-width: 1440px) {
@@ -228,10 +228,10 @@
 }
 
 .miembro__datos {
+  min-height: 13em;
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  min-height: 13em;
 }
 
 .miembro__presentacion {
